@@ -20,13 +20,13 @@ class TodoModel {
         state: state ?? this.state,
       );
 
-  factory TodoModel.fromJson(Map<String, dynamic> json) => TodoModel(
+  factory TodoModel.fromMap(Map<String, dynamic> json) => TodoModel(
         title: json["title"],
         description: json["description"],
         state: json["state"],
       );
 
-  Map<String, dynamic> toJson() => {
+  Map<String, dynamic> toMap() => {
         "title": title,
         "description": description,
         "state": state,

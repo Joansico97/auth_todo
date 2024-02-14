@@ -1,3 +1,4 @@
+import 'package:auth_todo_flutter/core/extensions/extensions.dart';
 import 'package:auth_todo_flutter/core/utils/utils.dart';
 import 'package:flutter/material.dart';
 
@@ -31,8 +32,8 @@ class _BaseWidget extends StatelessWidget {
           child: SizedBox(
             height: size.fullHeight(context),
             width: size.fullWidth(context),
-            child: const Center(
-              child: Text('Próximamente'),
+            child: Center(
+              child: Text(context.locale.commingSoon),
             ),
           ),
         ),

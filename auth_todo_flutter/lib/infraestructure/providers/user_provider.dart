@@ -3,5 +3,5 @@ import 'package:auth_todo_flutter/infraestructure/repositories/repositories_impl
 import 'package:auth_todo_flutter/infraestructure/resources/resources_impl.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final todoProvider = Provider<TodoRepository>((ref) => TodoRepositoryImpl(TodoResourcceServerpod()));
+final userProvider = Provider<UserRepository>((ref) => UserRepositoryImpl(UserResourceServerpod()));
 // final todoProvider = Provider<TodoRepository>((ref) => TodoRepositoryImpl(TodoResourceFirebase()));
