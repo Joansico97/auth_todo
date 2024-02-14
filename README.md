@@ -1,6 +1,6 @@
 # AUTH TODO APP USING FLUTTER & SERVERPOD
 
-_This is an all-in-one app with user authentication using flutter & serverpod._
+_This is a todo app with user authentication using flutter & serverpod._
 
 # Architecture
 
